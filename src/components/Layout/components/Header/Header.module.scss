@@ -19,10 +19,9 @@
     justify-content: space-between;
 }
 
-.search, 
+.search,
 .search-result {
     width: 361px;
-
 }
 
 .search {
@@ -53,7 +52,7 @@
         top: var(--search-top-spacer);
         right: var(--search-button-width);
         width: 1px;
-        height: calc(var(--search-height) - var(--search-top-spacer)*2);
+        height: calc(var(--search-height) - var(--search-top-spacer) * 2);
         background-color: rgba(22, 24, 35, 0.12);
     }
 
@@ -95,3 +94,11 @@
         background-color: rgba(22, 24, 35, 0.06);
     }
 }
+
+.more-btn {
+    font-size: 2rem;
+    margin-left: 28px;
+    background-color: transparent;
+    padding: 4px 8px;
+}
+
